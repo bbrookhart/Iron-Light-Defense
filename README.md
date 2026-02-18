@@ -1,5 +1,5 @@
 # 🛡️ Iron Light Defense
-## AI Governance Readiness Sprint
+## AI Governance 
 ### Sovereign AI Oversight Architecture for High-Responsibility Organizations
 
 ---
