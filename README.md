@@ -1,29 +1,117 @@
 # 🛡️ Iron Light Defense
-## AI Governance 
-### Sovereign AI Oversight Architecture for High-Responsibility Organizations
+## AI Governance Readiness Sprint
+### Sovereign Oversight Architecture for High‑Responsibility Organizations
 
----
+Artificial intelligence is being deployed at a scale without governance architectures that can withstand audit, incident pressure, or regulatory ambiguity.
 
-## Executive Overview
+Iron Light Defense builds governance command structures — not checklist compliance.
 
-Artificial intelligence is being deployed at scale across commercial organizations without sufficient corresponding governance architecture.
+This repository is a complete kit to establish:
+- AI system visibility
+- risk-tier governance
+- executive accountability
+- defensible documentation
+- agentic AI security guardrails
+- board-ready reporting
 
-Most firms have:
+## Why this exists
+In most organizations:
+- AI systems are not inventoried as assets, and ownership is unclear.
+- Model/tool supply chains are untracked (foundation models, RAG sources, plugins, vendors).
+- No consistent tier model exists to drive approval gates and escalation.
+- Prompt injection and agent tool misuse risks are treated as “app bugs,” not governance risks.
+- No evidence pack exists that survives audit or post‑incident scrutiny.
 
-- No formal AI system inventory
-- No risk-tier classification model
-- No board-level reporting structure
-- No documented model risk controls
-- No structured incident escalation pathway
-- No interpretation framework for emerging EU AI obligations
+AI risk is not a tooling problem.
+It is a governance problem.
 
-This repository defines a defense-informed AI governance framework designed to establish operational oversight, regulatory alignment, and executive accountability.
+## Who this is for
+- CTO / CIO
+- CISO / Security Director
+- CRO / ERM Leader
+- GRC Lead / Compliance
+- AI Program Director
+- Board Risk Committee
 
-Iron Light Defense does not provide checklist compliance.
+## What you get:
+Execution cadence is defined in `docs/doctrine.md`.
 
-We design governance command structures.
+Artifacts included:
+- AI Asset Register standard + templates
+- Multi-domain risk taxonomy + scoring + tier model
+- Governance committee charter + RACI + decision rights model
+- Control library for agentic AI systems (tools, memory, sandboxing, monitoring)
+- Incident escalation protocol + AI incident report templates
+- EU AI Act readiness kit (timeline, roles, interpretive memo & decision log)
+- Governance maturity model (Level 1–5) + gap analysis method
+- Board reporting framework + executive briefing template
+- 90‑day remediation roadmap template
+- Red teaming / TEVV plan for agentic and GenAI systems
 
----
+## What you must provide (client inputs)
+To complete the sprint, the organization must provide:
+- A list of all AI/ML/GenAI/LLM systems (or systems suspected of containing AI features)
+- A primary executive sponsor
+- System owners (or delegates) for each AI system
+- Security/GRC liaison(s) for evidence expectations
+- Access to existing policies: ISMS, SDLC, incident response, vendor risk, data classification
+- A working definition of “high responsibility outcomes” (what can’t fail)
+
+## Core principles
+1. Inventory before control.
+2. Tier before deployment.
+3. Document before scale.
+4. Escalate transparently.
+5. Report systematically.
+
+Governance must function under ambiguity.
+
+## Framework alignment (practical)
+This sprint operationalizes:
+- NIST AI RMF (Govern/Map/Measure/Manage)
+- EU AI Act risk-based governance (including GPAI readiness)
+- ISO/IEC 42001 (AI Management System)
+- ISO/IEC 27001 alignment (ISMS integration)
+- SOC 2 trust services alignment (evidence expectations)
+
+See `docs/framework-crosswalk.md`.
+
+## Agentic AI security stance
+Agentic AI introduces a security reality:
+- Models can be coerced (prompt injection, indirect injection via untrusted content).
+- Tools can be misused (excessive agency, irreversible actions).
+- Memory and context can be poisoned (persistent manipulation).
+- Monitoring must be designed for tool invocation and side effects, not only text output.
+
+This repository includes an agentic control plane design and control library:
+- tool scoping + least privilege
+- server-side validation
+- human confirmation for irreversible actions
+- sandboxing and isolation
+- provenance and integrity for memory/context sources
+- audit logging for tool calls and decisions
+
+See `docs/control-library-agentic-ai.md` and `diagrams/agentic-control-plane.mmd`.
+
+## How to use this repo
+1. Start with `docs/doctrine.md`.
+2. Stand up governance quickly:
+   - `templates/committee-charter-template.md`
+   - `docs/governance-structure-and-raci.md`
+3. Build inventory:
+   - `docs/ai-asset-register-standard.md`
+   - `data/ai-asset-register-template.csv`
+4. Score/tier systems:
+   - `docs/risk-scoring-methodology.md`
+   - `data/risk-register-template.csv`
+5. Implement lifecycle gates and controls:
+   - `docs/lifecycle-gates-and-change-control.md`
+6. Prepare board materials:
+   - `docs/board-reporting-framework.md`
+   - `templates/executive-risk-brief-template.md`
+
+## Legal note
+This repository provides governance and security architecture templates and is not legal advice.
 
 # What Makes Us Different?
 
@@ -273,31 +361,6 @@ Governance maturity is demonstrated through disciplined judgment — not perfect
 - Committee Charter Template
 - Executive Risk Brief Template
 - Mermaid Governance Diagrams
-
----
-
-# Intended Audience
-
-- CTO / CIO
-- Chief Risk Officer
-- GRC Lead
-- AI Program Director
-- Security Director
-- Board Risk Committee
-- Executive Leadership
-
----
-
-# Differentiation From Competitors
-
-| Commodity AI Consultant | Iron Light Defense |
-|--------------------------|-------------------|
-| Tool recommendation | Governance architecture |
-| Compliance checklist | Multi-framework integration |
-| Technical assessment only | Executive-level oversight structure |
-| No risk-tier modeling | Structured tier classification |
-| No board engagement | Board-ready reporting |
-| Reactive compliance | Sovereign risk architecture |
 
 ---
 
