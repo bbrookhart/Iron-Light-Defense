@@ -1,4 +1,4 @@
-# 🛡️ Iron Light Defense
+# 🛡️ AetherHorizon
 ## AI Governance Readiness Sprint
 ### Sovereign Oversight Architecture for High‑Responsibility Organizations
 
