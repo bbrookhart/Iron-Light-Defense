@@ -4,7 +4,7 @@
 
 Artificial intelligence is being deployed at a scale without governance architectures that can withstand audit, incident pressure, or regulatory ambiguity.
 
-Iron Light Defense builds governance command structures — not checklist compliance.
+AetherHorizon builds governance command structures — not checklist compliance.
 
 This repository is a complete kit to establish:
 - AI system visibility
@@ -115,7 +115,7 @@ This repository provides governance and security architecture templates and is n
 
 # What Makes Us Different?
 
-Iron Light Defense operates at the intersection of:
+AetherHorizon operates at the intersection of:
 
 - AI Risk Architecture
 - Governance Systems Design
@@ -209,7 +209,7 @@ AI governance must not operate in isolation from information security governance
 
 Compliance without structural oversight is fragile.
 
-Iron Light Defense applies five principles:
+AetherHorizon applies five principles:
 
 1. Inventory before control.
 2. Tier before deployment.
@@ -387,13 +387,13 @@ Organizations that implement structured oversight early will:
 - Increase investor confidence
 - Reduce reputational exposure
 
-Iron Light Defense builds that infrastructure.
+AetherHorizon builds that infrastructure.
 
 ---
 
 ## Contact
 
-Iron Light Defense  
+AetherHorizon  
 AI Governance & Sovereign Risk Architecture  
 
 ---
