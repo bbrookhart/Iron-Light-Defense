@@ -1,5 +1,5 @@
 # 🛡️ AetherHorizon
-## AI Governance Readiness Sprint
+## AI Governance
 ### Sovereign Oversight Architecture for High‑Responsibility Organizations
 
 Artificial intelligence is being deployed at a scale without governance architectures that can withstand audit, incident pressure, or regulatory ambiguity.
